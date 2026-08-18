@@ -67,12 +67,6 @@ Também posso voltar a projetos antigos para refatorá-los conforme aprender nov
 
 ---
 
-## 🧮 Calculadora
-
-O primeiro projeto do repositório é uma calculadora simples.
-
-O objetivo foi praticar conceitos fundamentais da linguagem Python e registrar uma das primeiras etapas da minha evolução.
-
 ### Conceitos praticados
 
 - variáveis;
