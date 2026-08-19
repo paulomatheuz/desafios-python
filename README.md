@@ -41,39 +41,7 @@ Com este repositório, pretendo:
 
 ---
 
-## 🧠 Metodologia de estudo
-
-Meu processo de aprendizado segue, de forma geral, este fluxo:
-
-```text
-Videoaula / Conteúdo
-        ↓
-Entendimento do conceito
-        ↓
-Exemplo prático
-        ↓
-Exercício ou desafio
-        ↓
-Pequeno projeto
-        ↓
-Revisão e melhorias
-```
-
-Sempre que possível, tento escrever o código por conta própria antes de consultar uma solução pronta.
-
-Também posso voltar a projetos antigos para refatorá-los conforme aprender novas técnicas.
-
 > A ideia não é começar escrevendo código perfeito, mas conseguir escrever hoje um código melhor do que eu escrevia ontem.
-
----
-
-### Conceitos praticados
-
-- variáveis;
-- entrada de dados;
-- operadores matemáticos;
-- estruturas condicionais;
-- lógica de programação.
 
 ---
 
