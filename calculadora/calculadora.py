@@ -1,19 +1,25 @@
-valor1 = input("digite um número ")
-valor2 = input("digite outro número ")
-operação = input("digite a operação (+, -, *, /): ")
+valor1 = float(input("Digite um número: "))
+valor2 = float(input("Digite outro número: "))
+operacao = input("Digite a operação (+, -, *, /): ")
 
-if operação == "+":
-    resultado = float(valor1) + float(valor2)
+if operacao == "+":
+    resultado = valor1 + valor2
     print("O resultado é: ", resultado)
 
-elif operação == "-":
-    resultado = float(valor1) - float(valor2)
+elif operacao == "-":
+    resultado = valor1 - valor2
     print("O resultado é: ", resultado)
 
-elif operação == "*":
-    resultado = float(valor1) * float(valor2)
+elif operacao == "*":
+    resultado = valor1 * valor2
     print("O resultado é: ", resultado)
 
-elif operação == "/":
-    resultado = float(valor1) / float(valor2)
-    print("O resultado é: ", resultado)
+elif operacao == "/":
+    if valor2 != 0:
+        resultado = valor1 / valor2
+        print("O resultado é: ", resultado)
+    else:
+        print("Erro: não é possível dividir por zero.")
+
+else:
+    print("Operação inválida.")
