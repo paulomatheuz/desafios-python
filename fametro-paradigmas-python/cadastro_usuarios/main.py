@@ -1,4 +1,4 @@
-from cadastro_usuarios.usuarios import perguntar, inserir, pesquisar, remover, listar
+from usuarios import perguntar, inserir, pesquisar, remover, listar
 
 usuarios = {}
 

@@ -14,6 +14,7 @@ def inserir(dicionario):
         input("Digite a última data de acesso: "),
         input("Qual a última estação acessada: ").upper()
     ]
+    salvar(dicionario)
 
 
 def pesquisar(dicionario):
@@ -45,3 +46,8 @@ def remover(dicionario):
 
 def listar(dicionario):
     print("Usuários atuais:", list(dicionario.keys()))
+
+def salvar(dicionario):
+    with open("db.txt", "a") as usuarios:
+        for chave, valor in dicionario.items():
+            usuarios.write(f"{chave}: {valor}\n")
